@@ -1,7 +1,7 @@
 def using_while
-  force = 0
-  while force < 11
+  counter = 0
+  while counter < 10
     puts "Wingardium Leviosa"
-    force += 1
+    counter += 1
   end
 end
