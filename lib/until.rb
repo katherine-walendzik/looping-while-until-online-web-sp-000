@@ -1,7 +1,7 @@
 def using_until
-  force = 0
-  until force == 10
-    puts "Wingardium Leviosa"
-    force += 1
-  end
+counter = 0
+until counter == 10
+  puts "Wingardium Leviosa"
+  counter += 1
+end
 end
